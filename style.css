@@ -26,13 +26,16 @@ hr{
     margin-top: 5%;
     background-color: white;
     border-radius: 15px;
+    margin-bottom: 200px;
+    
 }
 /* components */
 .btn{
     text-decoration: none;
     border: 1px solid #f6f8f9;
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 5px;
+    color: white;
 }
 .btn-disabled{
     color: lightgray;

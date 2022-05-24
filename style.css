@@ -49,5 +49,19 @@ ul{
     height: 15px;
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 8px;
+    color: green;
+}
+.red-circle{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 8px;
+    color: red;
+}
+.titolo{
+    padding: 5px;
 }

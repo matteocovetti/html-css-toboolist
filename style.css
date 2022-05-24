@@ -13,6 +13,11 @@ body{
 header{
     background-color: white;
 }
+
+hr{
+    color: lightgray;
+}
+
 .container{
     width: 70%;
     margin-left: auto;
@@ -27,13 +32,36 @@ header{
     padding: 3px;
     border-radius: 3px;
 }
+.btn-task{
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 3px;
+    border-radius: 50px;
+    color: white;
+}
 .btn-blue{
     background-color: aqua;
-    color: white;
+   
+}
+.btn-viola{
+    background-color: purple   
+}
+.btn-verde{
+    background-color: green;
+}
+.btn-arancione{
+    background-color: orange;
+}
+.btn-rosa{
+    background-color: pink;
+}
+.btn-verde-chiaro{
+    background-color: lightgreen;
 }
 /* contenuto */
 .top{
     padding: 10px;
+    padding-left: 50px;
 }
 
 /* lista */
@@ -64,4 +92,7 @@ ul{
 }
 .titolo{
     padding: 5px;
+}
+.task{
+    padding-left: 50px;
 }

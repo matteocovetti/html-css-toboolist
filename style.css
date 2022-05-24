@@ -6,7 +6,7 @@
 }
 /* commons */
 body{
-    background-color: lightgray;
+    background-color: #f6f8f9;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,7 +15,8 @@ header{
 }
 
 hr{
-    color: lightgray;
+    border-color: #f6f8f9;
+    border-style: solid;
 }
 
 .container{
@@ -24,13 +25,17 @@ hr{
     margin-right: auto;
     margin-top: 5%;
     background-color: white;
+    border-radius: 15px;
 }
 /* components */
 .btn{
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid #f6f8f9;
     padding: 3px;
     border-radius: 3px;
+}
+.btn-disabled{
+    color: lightgray;
 }
 .btn-task{
     text-decoration: none;
@@ -40,23 +45,23 @@ hr{
     color: white;
 }
 .btn-blue{
-    background-color: aqua;
+    background-color: #14aaf5;
    
 }
 .btn-viola{
-    background-color: purple   
+    background-color: #ab5de6   
 }
 .btn-verde{
-    background-color: green;
+    background-color: #2cc6ab;
 }
 .btn-arancione{
-    background-color: orange;
+    background-color: #ff9b00;
 }
 .btn-rosa{
-    background-color: pink;
+    background-color: #ec4a9d;
 }
 .btn-verde-chiaro{
-    background-color: lightgreen;
+    background-color: #a3d117;
 }
 /* contenuto */
 .top{

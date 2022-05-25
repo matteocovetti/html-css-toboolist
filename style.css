@@ -12,6 +12,7 @@ body{
 
 header{
     background-color: white;
+    padding: 15px 10px;
 }
 
 hr{
@@ -49,33 +50,52 @@ hr{
 }
 .btn-blue{
     background-color: #14aaf5;
+    border-color: #14aaf5;
    
 }
 .btn-viola{
-    background-color: #ab5de6   
+    background-color: #ab5de6;
+    border-color: #ab5de6;  
 }
 .btn-verde{
     background-color: #2cc6ab;
+    border-color: #2cc6ab;
 }
 .btn-arancione{
     background-color: #ff9b00;
+    border-color: #ff9b00;
 }
 .btn-rosa{
     background-color: #ec4a9d;
+    border-color: #ec4a9d;
 }
 .btn-verde-chiaro{
     background-color: #a3d117;
+    border-color: #a3d117;
 }
 /* contenuto */
 .top{
     padding: 10px;
     padding-left: 50px;
 }
-
+.titolo{
+    padding: 5px;
+}
+.task{
+    padding: 10px;
+    padding-left: 50px;
+}
 /* lista */
 ul{
     list-style: none;
     line-height: 2;
+}
+.main-list > li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.task-list > li{
+    margin-bottom: 15px;
 }
 
 .circle{
@@ -97,10 +117,4 @@ ul{
     text-align: center;
     font-size: 8px;
     color: red;
-}
-.titolo{
-    padding: 5px;
-}
-.task{
-    padding-left: 50px;
 }
